@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@import "container";
+@import "header";
+@import "top-section";
+@import "processor";
+@import "start";
+@import "jobs";
+@import "partner";
+@import "education";
+@import "teacher";
+@import "article";

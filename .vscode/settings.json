@@ -1,0 +1,19 @@
+{
+  "editor.fontSize": 18,
+  "files.autoSave": "onFocusChange",
+  "editor.tabSize": 2,
+  "liveSassCompile.settings.formats": [
+  
+
+      {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "/css"
+      }
+  ],
+  "liveSassCompile.settings.excludeList": [
+  
+      "**/node_modules/**",
+      ".vscode/**"
+  ]
+}

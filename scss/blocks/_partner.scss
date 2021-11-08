@@ -1,0 +1,61 @@
+.partner {
+  background-color: black;
+  padding-top: 150px;
+}
+
+// .partner__block {
+// }
+
+.partner__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+  margin-bottom: 80px;
+}
+
+.partner__header::before {
+  content: url(../../img/duga-2.png);
+  margin-right: 20px;
+}
+
+.partner__table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .partner__table {
+// }
+
+// .partner__line-top {
+
+// }
+
+// .partner__line-bottom {
+// }
+
+.partner__data {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 35px;  
+}
+
+.partner__line-bottom .partner__data {
+  border-bottom: none;
+}
+
+.partner__data:last-child {
+  border-right: none;
+}
+
+.partner__image {
+  display: block;
+  width: 200px;
+  height: 90px;
+}

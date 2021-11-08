@@ -1,0 +1,102 @@
+.education {
+  background-color: black;
+  padding-top: 150px;
+}
+
+// .education__block {
+
+// }
+
+.education__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+  height: 45px;
+}
+
+.education__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.education__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.5;
+  width: 420px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.week {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .week__left {
+  
+// }
+
+.week__num-1, .week__num-2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.week__paragraph-left, .week__paragraph-right {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: right;
+  color: #FFFFFF;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.week__paragraph-left::after {
+  content: url(../../img/liniya.png);
+}
+
+.week__paragraph-right::before {
+  content: url(../../img/liniya.png);
+}
+
+.week__center {
+  width: 5px;
+  height: 450px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+// .week__right {
+// }
+
+.week__num-1 {
+  text-align: right;
+  margin-right: 60px;
+  margin-bottom: 15px;
+}
+
+.week__num-2 {
+  text-align: left;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}

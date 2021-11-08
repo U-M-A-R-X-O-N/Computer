@@ -1,0 +1,101 @@
+.start {
+  background-color: black;
+  padding-top: 150px;
+}
+
+// .start__block {
+
+// }
+
+.start__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0;
+}
+
+.start__header::before {
+  content: url(../../img/duga.png);
+  margin-right: 20px;
+}
+
+.start__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  width: 30%;
+}
+
+.unordered {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.unordered__list {
+  list-style-type: none;
+}
+
+.unordered__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.unordered__inline-block1 {
+  display: inline-block;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 100%;
+  height: 80px;
+}
+
+.unordered__inline-block2 {
+  display: inline-block;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.unordered__inline-block3 {
+  display: inline-block;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.unordered__inline-block4 {
+  display: inline-block;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 100%;
+  height: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.unordered__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.5;
+  width: 95%;
+}

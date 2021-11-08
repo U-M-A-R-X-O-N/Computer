@@ -1,0 +1,41 @@
+.processor {
+  background-color: black;
+  padding-top: 150px;
+}
+
+.processor__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+// .processor__left {
+
+// }
+
+.processor__image {
+  width: 446px;
+  height: 446px;
+}
+
+.processor__right {
+  width: 50%;
+}
+
+.processor__header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.processor__paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
